@@ -79,8 +79,8 @@ float sdBezier(vec2 pos, vec2 A, vec2 B, vec2 C){
 }
 //http://mathworld.wolfram.com/HeartCurve.html
 vec2 getHeartPosition(float t){  
-	return vec2(14.0 * sin(t) * sin(t) * sin(t),              
-	-(11.0 * cos(t) - 5.0 * cos(2.0*t)              
+	return vec2(13.0 * sin(t) * sin(t) * sin(t),              
+	-(12.0 * cos(t) - 5.0 * cos(2.0*t)              
 	- 2.0 * cos(3.0*t) - cos(4.0*t)));
 }
 //https://www.shadertoy.com/view/3s3GDn
